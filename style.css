@@ -185,6 +185,10 @@ footer {
   margin: 0 auto;
 }
 
+.halfish-content {
+  width: 80%;
+}
+
 .kanban-p {
   text-align: center;
   width: 100%;
