@@ -39,6 +39,9 @@ nav ul {
   list-style: none;
   border-radius: 20px;
 }
+a {
+  color: rgb(34, 150, 158);
+}
 
 nav ul * {
   margin: 1.3em auto;
@@ -64,19 +67,72 @@ nav ul * {
 h1 {
   grid-column: 4 / span 3;
   grid-row: 2;
-  color: rgb(15, 51, 56);
+  font-size: 34px;
+  font-family:  monospace;
+  padding-top: 24px;
+}
+
+h2 {
+ font-family: 'Courier New', Courier, monospace;;
+ padding:  0 24px ;
+ font-size: 30px;
+ color: rgb(34, 150, 158);
+ 
+}
+
+h3 {
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  padding:  0 24px ;
+  line-height: 1.7;
+ 
+}
+
+h4 {
+  color: rgb(20, 110, 122);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding:  0 24px ;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.7;
+  padding:  0 24px ;
+}
+
+button {
+  margin: 0 auto;
 }
 
 main {
   grid-column: 2 / span 7;
   grid-row: 3;
+
 }
+
 
 section {
   margin: 2em 0;
   border: 2px solid rgb(20, 110, 122);
-  box-shadow: 10px 5px 5px rgb(0, 228, 236);
+  box-shadow: 10px 5px 5px rgb(187, 208, 209);
   padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.background {
+  font-family:  monospace;
+  line-height: 1.9;
+  color: #313131;
+ font-size: 18px;
+width: 75%;
+margin: 16px auto 48px ;
 }
 
 .code {
@@ -96,6 +152,7 @@ section {
   font-size: 1em;
   font-weight: 500;
   margin-bottom: 1em;
+  
 }
 
 .active,
@@ -114,14 +171,24 @@ section {
 
 
 .content p {
-  font-weight: 800;
   text-align: center;
+
+  color: rebeccapurple;
 }
 footer {
   grid-column: 4 / span 2;
   grid-row: 4;
 }
 
+.half-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.kanban-p {
+  text-align: center;
+  color: rebeccapurple;
+}
 
 @media screen and (max-width: 764px) {
   .top {
@@ -131,5 +198,10 @@ footer {
   
   footer {
     grid-column: 3 / span 5;
+  }
+
+  h3 {
+   
+    font-size: 20px;
   }
 }

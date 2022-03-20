@@ -1,418 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment CP4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assessment CP4</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#k2">K2</a></li>
-        <li><a href="#k3">K3</a></li>
-        <li><a href="#k5">K5</a></li>
-        <li><a href="#c2">C2</a></li>
-        <li><a href="#c5">C5</a></li>
-        <li><a class="top" href="#top">Top of the page</a></li>
-      </ul>
-    </nav>
-  </header>
-  <h1><a id="top"> Assessment CP4</a></h1>
-  <main>
-    <section id="k2">
-      <h2>K2</h2>
-      <h3>
-        Knowledge and experience in various development methods and work
-        processes, and above all agile system development methods.
-      </h3>
-      <p>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#k2">K2</a></li>
+          <li><a href="#k3">K3</a></li>
+          <li><a href="#k5">K5</a></li>
+          <li><a href="#c2">C2</a></li>
+          <li><a href="#c5">C5</a></li>
+          <li><a class="top" href="#top">Top of the page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1><a id="top"> Assessment CP4</a></h1>
+    <main>
+      <p class="background">
         During the fourth course period I had an internship at Judilica, a
         start-up that develops digital tools for legal work (mainly). The
         internship was fully remote and lasted for six months, during which I
         and a fellow intern had the task of creating the company's landing
-        page from design to deployment (CI/CD). The frontend technologies that
-        I got to learn more about and work with during the internship are
+        page from design to deployment (CI/CD). The frontend technologies (stack) that
+        I worked with with during the internship were
         Next.js, React, TypeScript and Sass.
       </p>
+      
+      <section id="k2">
 
-      <p>
-        Judilica as a company is one that aim to work in an agile fashion.
-        This I noticed from the very start at our introduction meeting with
-        the team. The online meeting started off with a small team development
-        session, during which I was able to get to know and connect with the
-        entire team. In regards to <span id="c2-eg-1"><a
-            href="https://www.thoughtfulleader.com/wp-content/uploads/2020/11/5-Stages-of-Team-Development.jpg"
-            target="_blank" rel="noopener noreferrer"> the five stages of group development</a></span>
-        (posited by Bruce Tuckman), this session took the new team
-        constellation from forming to norming. This was really good because
-        even through I was mainly in contact with our mentor, I still felt
-        comfortable reaching out the other members of the team when it was
-        necessary throughout the internship.
-      </p>
+      
+        <h2>K2</h2>
+        <h3>
+          Knowledge and experience in various development methods and work
+          processes, and above all agile system development methods.
+        </h3>
+      
 
-      <p>
-        As the structure for the overall planning was already in place, it
-        easy for me to dive into the project and for us to begin with planning
-        phase. The entire team collaborated in Notion and we were assigned our
-        own workspace for the landing page which we were responsible of
-        populating and maintaining. Below is a picture from the kanban board
-        that I and the fellow intern created and maintained throughout the
-        internship. The purpose of the kanban board was to help visualize work
-        and maximize efficiency (flow). During the design phase we created the
-        different tasks directly in notion, during the implementation phase
-        the tasks were generated from our Github issues.
-      </p>
+        <p>
+          Judilica as a company is one that aim to work in an agile fashion.
+          I noticed this from the very start at our introduction meeting with
+          the team. The meeting started off with a small team development
+          session and even though it was held online, I felt as though I was able to get to know and connect with the
+          entire team. In regards to
+          <span id="c2-eg-1"
+            ><a
+              href="https://www.thoughtfulleader.com/wp-content/uploads/2020/11/5-Stages-of-Team-Development.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              the five stages of group development</a
+            ></span
+          >
+          (posited by Bruce Tuckman), this session took the new team
+          constellation from forming to norming. This was really good because
+          even though I was mainly in contact with our mentor, I still felt
+          comfortable reaching out the other members of the team when it was
+          necessary throughout the internship.
+        </p>
 
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <p>Kanban board</p>
-        <img src="/assets/notion.png" alt="Notion workspace, a kanban board" />
-      </div>
+        <p>
+          The entire team collaborated in Notion (in regards to planning) and we were assigned our
+          own workspace for the landing page, which we were responsible of
+          populating and maintaining. Below is a picture from the kanban board
+          that I and the fellow intern created and maintained throughout the
+          internship. The purpose of the kanban board was to help visualize work
+          and maximize efficiency (flow). During the design phase we created the
+          different tasks for the board directly in Notion, during the implementation phase
+          the tasks were generated from our Github issues.
+        </p>
 
-      <p>
-        The Scrum methodology was applied throughout the project, we worked in
-        iterations (weekly sprints). We started of each week by reviewing our
-        backlog and discussing and deciding on the features that were to be
-        implemented for the week (sprint planning and sprint backlog).
-        Throughout the week and as we worked on the project we had daily
-        stand-ups. At the end of each week we would have an increment during
-        which we presented the work that had been carried out to our mentor
-        and received feedback, which we would review at the start on the
-        following week (sprint review and retrospective).
-      </p>
-
-      <p>
-        An agile concept that I had the opportunity to learn more and work
-        with during the internship continuous integration (CI) and continuous
-        deployment (CD), using Github and Vercel. Below is an image from our
-        slack channel of automated messages from Vercel with two deployments
-        that were made by me.
-      </p>
-
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <p>Slack board with automated CI/CD messages</p>
-        <img src="/assets/slack-cicd.png" alt="Slack board with automated deployment messages" />
-      </div>
-      <h5>457 words</h5>
-    </section>
-    <section id="k3">
-      <h2>K3</h2>
-      <h3>Methods of quality assurance.</h3>
-      <h4>
-        Below is the process (and methods) of quality assurance that I applied
-        during my internship:
-      </h4>
-
-      <p>
-        I started off with creating a new branch (normally from the main
-        branch) for the feature that I was going to develop. This was required
-        for all new features and changes and enabled for a more manage way to
-        conduct unit testing during the implementation and before the
-        integration (test driven development). Once I was done developing the
-        first iteration of the feature, I would push it to our remote
-        repository and create a pull request. My mentor would then review the
-        code (static testing) and then share feedback on what needed/could be
-        improved. The process would then repeat until the pull request was
-        approved and ready to merge with the main branch. Before a pull
-        request could be merged with main, it had pass a few pull request
-        checks - the most important being a successful deployment of the
-        branch by its own. Once all the checks were passed and conflicts
-        resolved between the feature's branch and the main branch, the branch
-        was ready to me merged with main.
-      </p>
-
-      <p>
-        I also learned that whilst working with CI/CD, it was wise to run a
-        build test locally to amend any build issues and errors before pushing
-        the code. As well as configure auto formatting to avoid running into
-        unnecessary conflicts, in particularly when working a project with
-        multiple developer.
-      </p>
-
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div class="k3-content">
-          <p>A pull request that I created</p>
-          <img src="/assets/about-pr.png" alt="A pull request screenshot from github" />
+        <button class="collapsible">Click to expand</button>
+        <div >
+          <p class="kanban-p">Kanban board</p>
+          <img
+            src="/assets/notion.png"
+            alt="Notion workspace, a kanban board"
+          />
         </div>
-        <div class="k3-content">
-          <p>Code review and feedback</p>
-          <img src="/assets/code-review.png" alt="A screenshot of code review from github" />
+
+        <p>
+          I also worked with Scrum throughout the project, working in
+          iterations (1 - 4 weeks sprints). We started of each sprint by reviewing our
+          backlog as well as discussing and deciding on the features that we were to 
+          implement for the sprint (sprint planning and creating a sprint backlog).
+          Everyday we would have a daily stand-up where I shared briefly about my progress or struggles and what my aim was for the day. At the end of each sprint we would have an increment, during
+          which we presented the work we had carried out to our mentor
+          and receive feedback, which we would review at the start of the
+          following sprint (sprint review and retrospective). 
+        </p>
+
+        <p>
+          I also had the opportunity to learn more and work
+          with test-driven development during my internship. Throughout the project I continuously deployed (CI/CD) new branches using Github and Vercel to ensure that they worked properly before merging them with the main branch. Below is an image from our
+          slack channel of automated messages from Vercel with two deployments
+          that I made.
+        </p>
+
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <p>Slack board with automated CI/CD messages</p>
+          <img
+            src="/assets/slack-cicd.png"
+            alt="Slack board with automated deployment messages"
+          />
         </div>
-        <div class="k3-content">
-          <p>A successful local build</p>
-          <img src="/assets/build.png" alt="A screenshot VSC terminal local build" />
+        <h5>396 + 71 (intro) = 467 words</h5>
+      </section>
+      <section id="k3">
+        <h2>K3</h2>
+        <h3>Methods of quality assurance.</h3>
+        <h4>
+          Below is the process (and methods) of quality assurance that I applied
+          during my internship:
+        </h4>
+
+        <p>
+          I started off with creating a new branch (normally from the main
+          branch) for the feature that I was going to develop. This was required
+          for all new features and changes and enabled for a more manage way to
+          conduct unit testing during the implementation and before the
+          integration (test driven development). Once I was done developing the
+          first iteration of the feature, I would push it to our remote
+          repository and create a pull request. My mentor would then review the
+          code (static testing) and then share feedback on what needed/could be
+          improved. The process would then repeat until the pull request was
+          approved and ready to merge with the main branch. Before a pull
+          request could be merged with main, it had pass a few pull request
+          checks - the most important being a successful deployment of the
+          branch by its own. Once all the checks were passed and conflicts
+          resolved between the feature's branch and the main branch, the branch
+          was ready to me merged with main.
+        </p>
+
+        <p>
+          I also learned that whilst working with CI/CD, it was wise to run a
+          build test locally to amend any build issues and errors before pushing
+          the code. As well as configure auto formatting to avoid running into
+          unnecessary conflicts, in particularly when working a project with
+          multiple developer.
+        </p>
+
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div class="k3-content">
+            <p>A pull request that I created</p>
+            <img
+              src="/assets/about-pr.png"
+              alt="A pull request screenshot from github"
+            />
+          </div>
+          <div class="k3-content">
+            <p>Code review and feedback</p>
+            <img
+              src="/assets/code-review.png"
+              alt="A screenshot of code review from github"
+            />
+          </div>
+          <div class="k3-content">
+            <p>A successful local build</p>
+            <img
+              src="/assets/build.png"
+              alt="A screenshot VSC terminal local build"
+            />
+          </div>
         </div>
-      </div>
 
-      <h4>
-        Other methods of quality assurance that I worked with during CP4 were
-        :
-      </h4>
-      <p>
-        &#x2747; Accessibility Guidelines (WCAG), in particularly when
-        designing the landing page. Things such as checking the color contrast
-        of the buttons with a color checking tool and increasing the font
-        weight on smaller text to increase the accessibility visually. When
-        working with the different animations on the page, I also took in
-        consideration not to go overboard with the different effects for the
-        same purpose.
-      </p>
+        <h4>
+          Other methods of quality assurance that I worked with during CP4 were
+          :
+        </h4>
+        <p>
+          &#x2747; Accessibility Guidelines (WCAG), in particularly when
+          designing the landing page. Things such as checking the color contrast
+          of the buttons with a color checking tool and increasing the font
+          weight on smaller text to increase the accessibility visually. When
+          working with the different animations on the page, I also took in
+          consideration not to go overboard with the different effects for the
+          same purpose.
+        </p>
 
-      <p>
-        &#x2747; TypeScript (instead of JavaScript) which I consider to be a
-        method of quality assurance when developing as it helps catch mistakes
-        early through a type system and makes debugging easier.
-      </p>
+        <p>
+          &#x2747; TypeScript (instead of JavaScript) which I consider to be a
+          method of quality assurance when developing as it helps catch mistakes
+          early through a type system and makes debugging easier.
+        </p>
 
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div class="k3-content">
-          <p>TypeScript implementation</p>
-          <img src="/assets/ts.png" alt="A screenshot VSC terminal code" />
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div class="k3-content">
+            <p>TypeScript implementation</p>
+            <img src="/assets/ts.png" alt="A screenshot VSC terminal code" />
+          </div>
         </div>
-      </div>
 
-
-
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div class="k3-content">
-          <p>The landing page</p>
-          <img src="/assets/ts.png" alt="A screenshot VSC terminal code" />
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div class="k3-content">
+            <p>The landing page</p>
+            <img src="/assets/ts.png" alt="A screenshot VSC terminal code" />
+          </div>
         </div>
-      </div>
 
-      <h5>287 words</h5>
-    </section>
-    <section id="k5">
-      <h2>K5</h2>
-      <h3>
-        Choose work and project methodology and make independent decisions
-        about planning and work according to requirement specifications
-        against set quality requirements in delivery.
-      </h3>
-      <p>
-        One of the things that I found rewarding when it came to my internship
-        was the opportunity to create the landing page from scratch and have
-        responsibility for the entire development. This meant that I got the
-        chance to choose work and project methodology, as well as make
-        independent decisions about planning and work according to requirement
-        specifications set by our mentor (our stakeholder). Below are a few
-        occasions in regards this course goal.
-      </p>
+        <h5>287 words</h5>
+      </section>
+      <section id="k5">
+        <h2>K5</h2>
+        <h3>
+          Choose work and project methodology and make independent decisions
+          about planning and work according to requirement specifications
+          against set quality requirements in delivery.
+        </h3>
+        <p>
+          One of the things that I found rewarding when it came to my internship
+          was the opportunity to create the landing page from scratch and have
+          responsibility for the entire development. This meant that I got the
+          chance to choose work and project methodology, as well as make
+          independent decisions about planning and work according to requirement
+          specifications set by our mentor (our stakeholder). Below are a few
+          occasions in regards this course goal.
+        </p>
 
-      <p>
-        Starting off I collaborated with my fellow intern to create backlog
-        activities for the design process. The main activities that we planned
-        and carried out were wire-framing, loFi and hiFi prototyping. The
-        wire-framing we collaborated on and created together as we need to be
-        on the same page when it came to which features were to be included on
-        the landing page. The features that we decided on were based on the
-        requirements in the project specification for the landing page, which
-        we had received at the beginning of the project.
-      </p>
+        <p>
+          Starting off I collaborated with my fellow intern to create backlog
+          activities for the design process. The main activities that we planned
+          and carried out were wire-framing, loFi and hiFi prototyping. The
+          wire-framing we collaborated on and created together as we need to be
+          on the same page when it came to which features were to be included on
+          the landing page. The features that we decided on were based on the
+          requirements in the project specification for the landing page, which
+          we had received at the beginning of the project.
+        </p>
 
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div>
-          <p>Wire-frame</p>
-          <img src="" alt="a screenshot of a wire-frame created in Figma" />
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div>
+            <p>Wire-frame</p>
+            <img src="" alt="a screenshot of a wire-frame created in Figma" />
+          </div>
         </div>
-      </div>
 
-      <p>
-        After receiving approval from our stakeholder that the wire-frame met
-        requirement (mainly that the required features and elements were
-        included in the design), we decided to work individually on the loFi
-        prototypes. This in order to provide our stakeholders with different
-        design options and for us to gain a sense of what appealed to them
-        visually. This helped us when it came to hiFi prototyping as the loFi
-        design that they had settled for gave a good idea of what design style
-        appealed to the stakeholders.
-      </p>
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div>
-          <p>loFi prototype</p>
-          <img src="" alt="a screenshot of a loFi prototype created in Figma" />
+        <p>
+          After receiving approval from our stakeholder that the wire-frame met
+          requirement (mainly that the required features and elements were
+          included in the design), we decided to work individually on the loFi
+          prototypes. This in order to provide our stakeholders with different
+          design options and for us to gain a sense of what appealed to them
+          visually. This helped us when it came to hiFi prototyping as the loFi
+          design that they had settled for gave a good idea of what design style
+          appealed to the stakeholders.
+        </p>
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div>
+            <p>loFi prototype</p>
+            <img
+              src=""
+              alt="a screenshot of a loFi prototype created in Figma"
+            />
+          </div>
+          <div>
+            <p>hiFi prototype</p>
+            <img
+              src=""
+              alt="a screenshot of a hiFi prototype created in Figma"
+            />
+          </div>
         </div>
-        <div>
-          <p>hiFi prototype</p>
-          <img src="" alt="a screenshot of a hiFi prototype created in Figma" />
+
+        <p>
+          Aside from the required features and elements in the project
+          specification, the process requirements of the project was also
+          specified in the project specification. Mainly deciding and diving
+          everyday operations/work methods with an agile approach, as well as
+          using a kanban board (in notion). When developing I utilized Github
+          issues to create requirement specifications for both new features that
+          I implemented as well as bug fixes. The issues were connected to our
+          kanban board in notion.
+        </p>
+        <p>
+          Below is a screenshot of an issue that I created for correcting the
+          <span id="k5-eg-1">overall responsiveness</span> of the desktop
+          version. In the issue I described the problem, how to reproduce it and
+          then show the expected behavior vs current behavior. I then solved the
+          issue at hand and created a pull request with the solutions that I
+          used to solve the problem. Followed by merging the branch with the
+          main branch once the pull request had been approved. For document
+          purposes the issue I linked to the pull request.
+        </p>
+
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div>
+            <p>Github Issue #20</p>
+            <img
+              src="assets/issue3.png"
+              alt="a screenshot of github issue created in github"
+            />
+          </div>
+          <div>
+            <p>Pull request for issue #20</p>
+            <img
+              src="/assets/pr-issue.png"
+              alt="a screenshot a pull request created in github"
+            />
+          </div>
         </div>
-      </div>
 
-      <p>Aside from the required features and elements in the project specification, the process requirements of the
-        project was also specified in the project specification. Mainly deciding and diving everyday operations/work
-        methods with an agile approach, as well as using a kanban board (in notion). When developing I utilized Github
-        issues to create requirement specifications for both new features that I implemented as well as bug fixes. The
-        issues were connected to our kanban board in notion. </p>
+        <h5>429 words</h5>
+      </section>
+      <section id="c2">
+        <h2>C2</h2>
+        <h3>
+          Collaborate effectively as employees and leaders in the management and
+          implementation of projects.
+        </h3>
 
-      <p> Below is a screenshot of an issue that I created for correcting the <span id="k5-eg-1">overall
-          responsiveness</span> of the desktop version. In the issue I described the problem, how to reproduce it and
-        then show the expected behavior vs current behavior. I then solved the issue at hand and created a pull request
-        with the solutions that I used to solve the problem. Followed by merging the branch with the main branch once
-        the pull request had been approved. For document purposes the issue I linked to the pull request. </p>
+        <p>
+          I was fortunate to be assigned the internship with a fellow intern,
+          who I had collaborated with before on a different project. We had
+          worked really well together in the past so the team was already at
+          <span><a href="#c2-eg-1">norming</a></span> when we kicked off the
+          project. Working together from design to deployment (CI/CD) meant that
+          we had to communicate a lot. We started off by exchanging our
+          expectations for the internship which were aligned. Both of us wanted
+          to learn as much as possible from the experience and utilize our
+          mentorship to learn industry standards in regards to the different
+          activities that we engaged with/in throughout the internship. Our
+          mutual goal was to deliver a final product that our stakeholders could
+          utilize or further develop. Aligning in this fashion early enabled for
+          us to encourage each other throughout the internship and in moments
+          where the motivation was low.
+        </p>
+        <p>
+          As the internship was fully remote and as we had to divide some of the
+          tasks in able to work more effectively. I felt that it was important
+          for us to maintain a good culture and did so by practicing
+          <span>
+            <a
+              href="https://miro.medium.com/max/1400/0*SaJNfM__l736rc9s"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            open and honest communication </span
+          >. Due to the freedom, but also responsibility that came with having
+          such a flexible workspace, I made sure to communicate whenever I had
+          hindrances (those related to work but also personal ones) that would
+          affect my work. eg. sharing when I wasn't feeling well and needed some
+          to take the day off. By having daily we could adjust our sprints
+          accordingly and set more realistic time management plans. Sharing in
+          this fashion also enabled the team to provide with some encouragement
+          when I felt low (and vice versa), which improved the overall
+          efficiency of our team.
+        </p>
 
-
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div>
-          <p>Github Issue #20</p>
-          <img src="assets/issue3.png" alt="a screenshot of github issue created in github" />
-
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div class="half-content" >
+            <p>Sharing and receiving some encouragement from the team</p>
+            <img
+              src="/assets/sick.png"
+              alt="a screenshot a conversation on slack"
+            />
+          </div>
         </div>
-        <div>
-          <p>Pull request for issue #20 </p>
-          <img src="/assets/pr-issue.png" alt="a screenshot a pull request created in github" />
+
+
+        <p>
+          As we had to work together, we opted for tools that allows for
+          multiple users to work in the same document/program, Figma (for the
+          design) and VSCode (for coding).In the beginning of the implementation
+          phase, it was very important for us to work closely together as to
+          ensure that we both were on board regarding the tasks at hand. We
+          started off with header and implemented it together before dividing
+          and individually working the remaining sections of the page. I think
+          that this helped us synchronize more the project progressed, as we
+          have agreed on the implementation structure together in the beginning.
+        </p>
+        <p>
+          Initially, I was a bit reluctant to pair-programming as I thought the
+          practice to be time consuming and inefficient (two people working on
+          one task). However I soon came to discover that there are a lot of
+          benefits to having two people work on the same problem as I was able
+          to learn a lot from my fellow intern. During these sessions I
+          discovered that I was able to learn and share knowledge in a cohesive
+          way (working with both verbal and visual feedback). This was
+          particularly important during the initial design phase and when trying
+          to align on the design language to use for the landing page.
+        </p>
+
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div class="half-content">
+            <p>Discord conversation with a VSCode live share</p>
+            <img
+              src="assets/discord.png"
+              alt="a screenshot of Discord conversation with a VSCode live share"
+            />
+          </div>
+         
         </div>
-      </div>
+
+        <h4>520 words</h4>
+      </section>
+      <section id="c5">
+        <h2>C5</h2>
+        <h3>
+          Independently treat relationships with and expectations of customers
+          and stakeholders in such a way that it leads to further learning and
+          completion of project.
+        </h3>
+
+        <p>
+          An important aspect of the internship for me personally was learning
+          how to work and communicate efficiently in relation to our mentor (and
+          stakeholders). When we initialized the project I specifically asked
+          our mentor to openly and honestly share his feedback. This was due to
+          the fact that I wanted to both improve my coding (write cleaner code)
+          as well meet the requirements in a way that was satisfying to the
+          stakeholders.
+        </p>
+
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div>
+            <p>Advice on how to write better Sass</p>
+            <img
+              src="assets/code-review.png"
+              alt="a screenshot of a pull request code review in github"
+            />
+          </div>
+        </div>
+
+        <p>
+          Starting off the project, the stakeholders did not have any concrete
+          ideas for how they wanted the landing page to look like. All they knew
+          was that they wanted to appeal to a broad audience. This meant that I
+          and my fellow intern had to work in iterations and ask for feedback
+          after each step (wire-framing, loFi & hiFi ). The feedback that was
+          received we then continued to build upon. This also meant that I had
+          to communicate an empathetic manner and remind the stakeholder that
+          our job was to support their vision (and that I would not take offense
+          if they wanted to go in a different direction). As the stakeholders
+          also had access to our Figma files, they were able to follow the work
+          that we were doing in real-time and come with relevant feedback as we
+          were working (did not have to wait until our next meeting). I believed
+          that practicing having transparency in this fashion helped the project
+          move along more smoothly.
+        </p>
+
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div>
+            <p>Providing different color theme options</p>
+            <img
+              src="assets/color-theme.png"
+              alt="a screenshot of Different options of colors themes in Figma"
+            />
+          </div>
+        </div>
+
+        <p>
+          As our mentor had other obligations, I felt that it was important to
+          be mindful of our exchanges and how often they happened. I saw this as
+          an opportunity for me to work more independently, as demonstrated in
+          on how I worked with "overall responsiveness" issue in
+          <span><a href="#k5-eg-1">K5</a></span
+          >, where I created the issue and implemented a solution before asking
+          what solution our mentor preferred in the pull request review. Him
+          approving the of solution presented meant that we only needed to have
+          one exchange regarding this bug fix.
+        </p>
+
+        <p>
+          During the implementation phase I made sure to openly communicate with
+          our mentor whenever I ran into issues that I felt like were taking too
+          long to solve or required their decisions-making for the progression
+          of the project. At times I would inform our stakeholders that the task
+          at hand required me to acquire some more knowledge either through
+          their help directly or by taking an online course. Other times I would
+          schedule a meeting with them for more in depth meeting regarding the
+          issue at hand. Below is an exchange between me and my mentor during which I received some advice on how to solve an task. 
+          </p>
 
 
-      <h5>429 words</h5>
-    </section>
-    <section id="c2">
-      <h2>C2</h2>
-      <h3>
-        Collaborate effectively as employees and leaders in the management and
-        implementation of projects.
-      </h3>
+        <button class="collapsible">Click to expand</button>
+        <div class="content">
+          <div class="half-content">
+            <p>    Slack conversation between myself and my mentor</p>
+            <img
+              src="assets/slack-convo.png"
+              alt="a screenshot of a slack conversation"
+            />
+          </div>
+        </div>
 
-      <p>
-        I was fortunate to be assigned the internship with a fellow
-        intern, who I had collaborated with before on a different project. We had worked really well together in the
-        past so the team was already at <span><a href="#c2-eg-1">norming</a></span> when we kicked off the project.
-        Working together from design to deployment (CI/CD) meant that we had to
-        communicate a lot. We started off by exchanging our expectations for the internship which were aligned. Both of us wanted to learn as much as possible from the experience and utilize our mentorship to learn industry standards in regards to the different activities that we engaged with/in throughout the internship. Our mutual goal was to deliver a final product that our stakeholders could utilize or further develop. Aligning in this
-        fashion early enabled for us to encourage each other throughout the internship and in moments where the
-        motivation was low.
-      </p>
-      <p>
-        As the internship was fully remote and as we had to divide some of the
-        tasks in able to work more effectively. I felt that it was important
-        for us to maintain a good culture and did so by practicing 
-        <span>
-          <a href="https://miro.medium.com/max/1400/0*SaJNfM__l736rc9s" target="_blank"
-            rel="noopener noreferrer">
-          </a>
-          open and honest communication
-        </span>.
-        Due to the freedom, but also responsibility that came with having
-        such a flexible workspace, I made sure to communicate whenever I had
-        hindrances (those related to work but also personal ones) that would
-        affect my work. eg. sharing when I wasn't feeling well and needed some to take the day off. By having daily we could adjust our sprints accordingly and set more realistic time management plans. Sharing in this fashion also enabled the team to provide with some encouragement when I felt low (and vice versa), which improved the overall efficiency of our team.
-
-      </p>
-
-      <p>
-        As we had to work together, we opted for tools that allows for multiple users to work in the same document/program, Figma (for the design) and VSCode (for coding).In the
-        beginning of the implementation phase, it was very important for us to
-        work closely together as to ensure that we both were on board
-        regarding the tasks at hand. We started off with header and
-        implemented it together before dividing and individually working the
-        remaining sections of the page. I think that this helped us
-        synchronize more the project progressed, as we have agreed on
-        the implementation structure together in the beginning.
-      </p>
-      <p>
         
-        Initially, I was a bit reluctant to pair-programming as I thought the practice to be time consuming and inefficient (two people working on one task). 
-        However I soon came to discover that there are a lot of benefits to having two people work on the same problem as I was able to learn a lot from my fellow intern. During these sessions I discovered that I was able to learn and share knowledge in a cohesive way (working with both verbal and visual feedback).  This was particularly important during the initial design phase and when trying to align on the design language to use for the landing page. 
-      </p>
+        <h5>425 words</h5>
+      </section>
+    </main>
 
-    
-      <button class="collapsible">Click to expand</button>
-      <div class="content">
-        <div>
-          <p>Discord conversation with a VSCode live share</p>
-          <img src="assets/discord.png" alt="a screenshot of Discord conversation with a VSCode live share" />
-
-        </div>
-        <div>
-          <p>Sharing and receiving some encouragement from the team </p>
-          <img src="/assets/sick.png" alt="a screenshot a conversation on slack" />
-        </div>
-      </div>
-
-    
-     
-
-     
-
-      <h4>520 words</h4>
-    </section>
-    <section id="c5">
-      <h2>C5</h2>
-      <h3>
-        Independently treat relationships with and expectations of customers
-        and stakeholders in such a way that it leads to further learning and
-        completion of project.
-      </h3>
-
-      <p>
-        In the beginning of the project this was particularly important as our
-        stakeholders did not have any concrete ideas for how they wanted the
-        landing page to look like. They wanted to appeal to a broad audience,
-        however they had no ideas regarding the design itself. This meant that
-        I and my internship buddy had to design in iterations and ask for
-        feedback after each step (wire-framing, loFi & hiFi ). This also meant
-        that we had to communicate in ways that were empathetic, and remind
-        the stakeholder that our job was to support their vision and not the
-        other way around. As the stakeholders also had access to our Figma
-        files, they were able to follow the work that we were doing in
-        real-time and come with relevant feedback as we were working (did not
-        have to wait until our next meeting). I believed that practicing
-        having transparency in this fashion helped strengthen the trust
-        between us and the stakeholders.
-      </p>
-
-      <p>An important part of the internship for me was learning how to work and communicate effectively. As our mentor
-        had other obligations, I felt that it was important to be mindful of our exchanges and how often they happened.
-        This gave me the opportunity to work more independently. As demonstrated in on how I worked with "overall
-        responsiveness" issue in <span><a href="#k5-eg-1">K5</a></span>, where I created the issue and implemented a
-        solution before asking what solution they preferred in the pull request and its review. As they were happy with
-        and approved the solution presented, I only needed to have that one exchange regarding this bug. </p>
-
-      <p>
-        During the implementation phase I made sure to openly communicate with
-        our mentor whenever I ran into issues that I felt like were taking too
-        long to solve or required their decisions-making for the progression
-        of the project. At times I would inform our stakeholders that the task
-        at hand required me to acquire some more knowledge either through
-        their help directly or by taking an online course. Other times I would
-        schedule a meeting with them for more in depth meeting regarding the
-        issue at hand.
-      </p>
-
-      <p>
-        Below are some snippets of the communication between me and our
-        stakeholders for the purpose of this course goal.
-      </p>
-
-      <button class="collapsible">Click to expand</button>
-      <div class="content">Image</div>
-
-      <p>
-        <b>Code review:</b> I specifically asked my mentor to share his
-        feedback openly and without holding back as I wanted to. This was
-        really helpful as I was able to received feedback on my coding style
-        and advice on how to write cleaner code.
-      </p>
-      <h5>486 words</h5>
-    </section>
-  </main>
-
-  <footer>
-    <h5>By Hamiat Nalwanga for Hyper Island FED22</h5>
-  </footer>
-</body>
-<script src="/script.js"></script>
-
+    <footer>
+      <h5>By Hamiat Nalwanga for Hyper Island FED22</h5>
+    </footer>
+  </body>
+  <script src="/script.js"></script>
 </html>
