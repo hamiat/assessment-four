@@ -195,7 +195,9 @@ footer {
   width: 100%;
   color: rebeccapurple;
 }
-
+video {
+  width: 100%;
+}
 @media screen and (max-width: 764px) {
   .top {
     display: none;
